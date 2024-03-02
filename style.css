@@ -1,0 +1,97 @@
+.body{
+
+    text-align: center;
+    background-image: url("IMG/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text{
+
+    color: white;
+    text-align: center;
+
+}
+
+.img{
+
+    width:700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+.formulario{
+
+    text-align: center;
+    background-image: url("IMG/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+
+}
+
+.tabla{
+
+    background-color: #0c3e11;
+    background-position: center;
+
+}
+
+.tabla{
+    width: 100%;
+    border-collapse: collapse;
+}
+.th .td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+/* Colores de fondo para la cabecera */
+.th{
+    background-color: #4CAF50;
+    color: white;
+}
+/* Colores de fondo para las celdas, alternando colores por fila */
+.colorverde{
+    background-color: greenyellow;
+}
+.colormorado{
+    background-color: plum;
+}
+/* Color específico para una celda */
+.colorverdeoscuro{
+    background-color: darkolivegreen;
+}
+.colornegro{
+    background-color: black;
+}
+.colorblanco{
+    background-color: whitesmoke;
+}
+.colorgris{
+    background-color: grey;
+}
+.colorverdeazulado{
+    background-color: rgb(75, 249, 238);
+}
+.colorverdeclaro{
+    background-color: rgb(202, 238, 172);
+}
+.colorverdemasocuro{
+    background-color: rgb(15, 75, 3);
+}
+.colorimagen{
+    background-color: rgb(175, 175, 175);
+}
+.color2tabla{
+    background-color: rgb(136, 255, 0);
+}
+
+.tipografia{
+
+    font-family: Helvetica
+}
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Validación Básica</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="formulario">
+    <div class="tipografia">
+    <h1>Breaking Bad - Que comience el juego!</h1>
+    <br>
+    <form name = "alumnos_dam" method="post" action="alumno.php">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <br>
+        <div class="form-group">
+            Apellidos
+            <input type="text" id="apellidos" name="apellidos" required>
+        </div>
+        <br>
+        <div class="form-group">
+            Dirección Postal:
+            <input type="text" id="direccion" name="direccion" placeholder="Calle, Número, Piso, Código Postal, Ciudad" required>
+        </div>
+        <br>
+        <div class="form-group">
+            DNI:
+            <input type="text" id="dni" name="dni" required>
+        </div>
+        <br>
+        <div class="form-group">
+            Correo Electrónico:
+            <input type="email" id="correo" name="correo" required>
+        </div>
+        <br>
+        <div class="form-group">
+            Sexo:
+            <input type="radio" id="hombre" name="sexo" value="hombre" required>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="sexo" value="mujer" required>
+            <label for="mujer">Mujer</label>
+        </div>
+        <br>
+        <div class="form-group">
+            Fecha de Nacimiento:
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="personaje">Seleccionar Personaje:</label>
+            <select id="personaje" name="personaje" required>
+              <option value="Jessie Pinkman">Jessie Pinkman</option>
+              <option value="Walter White">Walter White</option>
+              <option value="Saul Goodman">Saul Goodman</option>
+              <option value="Gustavo Fring">Gustavo Fring</option>
+              <option value="Pollos Hermanos">Pollos Hermanos</option>
+              <option value="Otros personajes">Otros personajes</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            Comentarios:
+            <br>
+            <textarea id="comentarios" name="comentarios"></textarea>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="adjuntar">Adjuntar Archivos:</label>
+            <input type="file" id="adjuntar" name="adjuntar">
+        </div>
+        <br>
+        <form name="formulario" action="raul.rodriguez@proeducaglobal.com" method="post">
+            <input type="file" name="deberes" accept=".pdf, jpg, .doc" multiple>
+            <br>
+            <br>
+            <input type="reset" value="Enviar"> <input type="reset" value="Reset">
+        </form>
+       </form>
+    </div>
+</body>
+</html>

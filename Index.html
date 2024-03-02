@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Breaking Bad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="IMG/logo.PNG" type="image/png">
+
+</head>
+<body class="body"align="center">
+    <br>
+    <img src="IMG/logo.PNG"alt="logo.png" width=200px">
+    <br>
+    <br>
+    <br>
+
+    <div class="text">
+
+        <h2>I did it for me. I liked it. I was good at it. And, I was really... I was alive.</h2>
+   
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <img src="IMG/poster.jpg" id="postermapa"alt="poster.jpg"usemap="#logomap"class="img">
+
+    <map name="logomap">
+        <area shape="rect" coords="484,106,661,142" href="Formulario.html" alt="Breaking">
+        <area shape="rect" coords="541,142,624,182" href="Tabla.html" alt="Bad">
+    </map>
+    
+   <!--Para poder sacar las coordenadas de la imagen realizo a el siguiente código, así puedo enlazar los demás archivos html-->
+    <script>
+    function mostrarCoordenadas(event) {
+        var x = event.offsetX; // Coordenada X del clic dentro de la imagen
+        var y = event.offsetY; // Coordenada Y del clic dentro de la imagen
+        alert("Coordenadas: X=" + x + ", Y=" + y);
+    }
+    
+    document.getElementById('postermapa').addEventListener('click', mostrarCoordenadas);
+    </script>
+    
+    </body>
+    </html>   
+    <br>
+    <br>
+
+</body>
+</html>
